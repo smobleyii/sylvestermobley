@@ -3,21 +3,61 @@ layout: default
 ---
 
 <div class="home">
+  <div id="page-1" class="">
+    <div id="pg1-sec1" class="row">
+      <div class="col-md-4 number">
+        <h2 class="page-number">01</h2>
+      </div>
+      <div class="col-md-1">
 
-  <h1 class="page-heading">Who Am I</h1>
+      </div>
+      <div class="col-md-7 title">
+        <img class="img-circle" src="img/headshot-r-web.jpg" alt="" />
+        <h3 class="page-title">Sylvester Mobley</h3>
+        <p class="page-text">
+          I am a father, husband, son and brother.
+          <br>
+          I am a social entrepreneur, technologist and educator.
+          <br>
+          I am veteran of the war in Iraq who served in three branches of the military.
+          <br>
+          I am the founder of Coded by Kids
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="page-2" class="">
+    <div id="pg2-sec1" class="row">
+      <div class="col-md-4 number">
+        <h2 class="page-number">02</h2>
+      </div>
+      <div class="col-md-1">
 
+      </div>
+      <div class="col-md-7 title">
+        <h3 class="page-title">What I Do</h3>
+        <p class="page-text">
+          I am a father, husband, son and brother.
+          <br>
+          I am a social entrepreneur, technologist and educator.
+          <br>
+          I am veteran of the war in Iraq who served in three branches of the military.
+          <br>
+          I am the founder of Coded by Kids
+        </p>
+      </div>
+    </div>
+  </div>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </h2>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

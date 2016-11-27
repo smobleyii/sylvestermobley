@@ -6,11 +6,64 @@
 h1{
   font-size: 48px;
 }
-
-.home{
-  padding: 82px 0 0 0;
+.img-circle {
+    border-radius: 25%;
+    width: 25%;
+    padding: 0 0 0 0px;
 }
-
+.navbar-default {
+  background-color: #fcfcfc;
+}
+.navbar-header{
+  padding: 0 0 0 10px;
+}
+.navbar-brand{
+  font-size: 20px;
+  font-weight: 600;
+}
+.row{
+  width: 100%;
+}
+.navbar-right{
+  padding: 0 20px 0 0;
+}
+.home{
+  padding: 10px 0 0 0;
+}
+.number{
+  text-align: center;
+}
+.page-number{
+  font-size: 180px;
+  font-family: 'Bungee', cursive;
+  padding: 60px 0 0 20px;
+}
+.title{
+  text-align: center;
+}
+.page-title{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 0px 0 0 20px;
+}
+.page-text{
+  font-size: 16px;
+  padding: 0 0 0 25px;
+}
+#page-1{
+  height: 780px;
+}
+#pg1-sec1{
+  padding-top: 260px;
+}
+#page-2{
+  height: 880px;
+}
+#pg2-sec1{
+  padding-top: 260px;
+}
 @media (min-width: 992px){
   .container {
       width: 100%;
