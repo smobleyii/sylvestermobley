@@ -13,9 +13,10 @@ h1{
 }
 .navbar-default {
   background-color: #fcfcfc;
+  height: 60px;
 }
 .navbar-header{
-  padding: 0 0 0 10px;
+  padding: 5px 0 0 10px;
 }
 .navbar-brand{
   font-size: 20px;
@@ -40,28 +41,56 @@ h1{
 }
 .title{
   text-align: center;
+  padding-top: 70px;
 }
 .page-title{
   font-size: 50px;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  padding: 0px 0 0 20px;
+  padding: 0 0 0 20px;
 }
 .page-text{
   font-size: 16px;
+  font-weight: 600;
   padding: 0 0 0 25px;
 }
+#navbar{
+  padding-top: 5px;
+}
 #page-1{
-  height: 780px;
+  height: 960px;
+  background-image: url("../img/background-image-2.jpg");
+  background-position: center;
 }
 #pg1-sec1{
   padding-top: 260px;
 }
 #page-2{
-  height: 880px;
+  height: 920px;
 }
 #pg2-sec1{
+  padding-top: 260px;
+}
+#page-3{
+  height: 920px;
+}
+#pg3-sec1{
+  padding-top: 260px;
+}
+#page-4{
+  height: 920px;
+}
+#pg4-sec1{
+  padding-top: 260px;
+}
+#sw-img{
+  width: 50%;
+}
+#page-5{
+  height: 920px;
+}
+#pg5-sec1{
   padding-top: 260px;
 }
 @media (min-width: 992px){
